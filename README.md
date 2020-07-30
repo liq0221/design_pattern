@@ -12,7 +12,7 @@
 ## 命令模式
     将请求封装成对象，这可以让你 使用不同的请求、队列、或者日志请求来参数化其他对象。命令模式也支持撤销操作。
 ## 代理模式
-    给某一个对象提供一个代理对象，并由代理对象控制对原对象的引用。
+    为另一个对象提供一个替身或占位符以访问这个对象。
 ## 组合模式
     将对象组合成树形结构以表示"部分-整体"的层次结构。组合模式使得用户可以使用一致的方法操作单个对象和组合对象。
 ## 享元模式
@@ -23,3 +23,19 @@
     提供了一个统一的接口，用来访问子系统中的一群接口。外观定义了一个高层接口，让子系统更容易使用。
 ## 模板模式
     在一个方法中定义一个算法的骨架，而将一些步骤延迟到子类中。模板模式使得子类可以在不改变算法结构的情况下，重新定义算法中的某些步骤。
+## 迭代器模式
+    提供一种方法顺序访问一个聚合对象中的各个元素，而又不暴露其内部的元素。
+## 访问者模式
+## 责任链模式
+## 状态模式
+    允许对象在内部状态改变时改变它的行为，对象看起来好像修改了它的类。
+## 创建型
+    Singleton、Builder、Prototype、AbstractFactory、Factory Method
+##  行为型
+    Mediator、Template Method、Visitor、Iterator、Command、Memnto、Interpreter、Observer、State、Strategy、Chain of Responsibility
+## 结构型
+    Decorator、Proxy、Composite、Facade、Bridge、Flyweight、Adaptor
+## 类
+    Template Method、Factory Method、Adaptor、Intercepter
+## 对象
+    Composite、Singleton、Visitor、AbstractFactory、Strategy、State、Facade、Mediator、Observer、Command、Memnto、Flyweight、Iterator、Bridge、Builder、Prototype、Chain of Responsibility、Proxy
